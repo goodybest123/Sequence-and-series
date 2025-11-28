@@ -6,6 +6,7 @@ export enum Level {
   Series = 4,
   Challenge = 5,
   Fibonacci = 6,
+  Fractal = 7,
 }
 
 export type SequenceType = 'arithmetic' | 'geometric';

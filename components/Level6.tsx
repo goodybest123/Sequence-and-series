@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import NumberPad from './NumberPad';
 import Feedback from './Feedback';

@@ -8,6 +8,7 @@ import Level3 from './components/Level3';
 import Level4 from './components/Level4';
 import Level5 from './components/Level5';
 import Level6 from './components/Level6';
+import Level7 from './components/Level7';
 import Background from './components/Background';
 
 const App: React.FC = () => {
@@ -27,6 +28,8 @@ const App: React.FC = () => {
         return <Level5 />;
       case Level.Fibonacci:
         return <Level6 />;
+      case Level.Fractal:
+        return <Level7 />;
       default:
         return <Level1 />;
     }

@@ -14,6 +14,7 @@ const levelData = [
   { id: Level.Series, title: 'Level 4: Building Sums', icon: '🧱' },
   { id: Level.Challenge, title: 'Level 5: Real World Puzzles', icon: '🌍' },
   { id: Level.Fibonacci, title: 'Level 6: Nature\'s Code', icon: '🐚' },
+  { id: Level.Fractal, title: 'Level 7: Infinite Fractals', icon: '🔺' },
 ];
 
 const Header: React.FC<HeaderProps> = ({ currentLevel, setCurrentLevel }) => {
